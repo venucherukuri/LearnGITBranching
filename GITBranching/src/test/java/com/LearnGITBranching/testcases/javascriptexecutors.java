@@ -34,7 +34,7 @@ public class javascriptexecutors extends baseClass {
 		
 		driver.findElement(By.className("yuRUbf")).click();
 		String text=driver.findElement(By.className("_8eso")).getText();
-		System.out.println("text: "+text);
+		System.out.println("text of facebook: "+text);
 	}
 	
 	@AfterClass

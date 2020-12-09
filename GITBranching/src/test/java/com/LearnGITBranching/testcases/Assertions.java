@@ -24,7 +24,7 @@ public class Assertions extends baseClass {
 		String title=driver.getTitle();
 		System.out.println("title of the page: "+title);
 		try {
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 		System.out.println("Assertion success");
 		}
 		catch(Throwable e){
