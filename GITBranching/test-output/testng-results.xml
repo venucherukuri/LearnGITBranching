@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-09T15:22:49 IST" name="Suite" finished-at="2020-12-09T15:23:06 IST" duration-ms="16629">
+    <groups>
+    </groups>
+    <test started-at="2020-12-09T15:22:49 IST" name="Test" finished-at="2020-12-09T15:23:06 IST" duration-ms="16629">
+      <class name="com.LearnGITBranching.testcases.Assertions">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.LearnGITBranching.testcases.Assertions@1bb266b3]" started-at="2020-12-09T15:22:49 IST" name="setup" finished-at="2020-12-09T15:23:05 IST" duration-ms="15701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assertTrue()[pri:0, instance:com.LearnGITBranching.testcases.Assertions@1bb266b3]" started-at="2020-12-09T15:23:05 IST" name="assertTrue" finished-at="2020-12-09T15:23:05 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrue -->
+        <test-method signature="assertTrue1()[pri:0, instance:com.LearnGITBranching.testcases.Assertions@1bb266b3]" started-at="2020-12-09T15:23:05 IST" name="assertTrue1" finished-at="2020-12-09T15:23:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrue1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LearnGITBranching.testcases.Assertions@1bb266b3]" started-at="2020-12-09T15:23:05 IST" name="tearDown" finished-at="2020-12-09T15:23:06 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LearnGITBranching.testcases.Assertions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
