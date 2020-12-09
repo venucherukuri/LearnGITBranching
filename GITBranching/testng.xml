@@ -6,7 +6,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.LearnGITBranching.testcases.Assertions" />
-
+			<class
+				name="com.LearnGITBranching.testcases.javascriptexecutors" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
