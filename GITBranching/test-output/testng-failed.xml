@@ -5,13 +5,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://www.google.com/"/>
     <classes>
-      <class name="com.LearnGITBranching.testcases.Assertions">
+      <class name="com.LearnGITBranching.testcases.javascriptexecutors">
         <methods>
-          <include name="assertTrue"/>
           <include name="setup"/>
+          <include name="searchUsingJavaScript"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.LearnGITBranching.testcases.Assertions -->
+      </class> <!-- com.LearnGITBranching.testcases.javascriptexecutors -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
