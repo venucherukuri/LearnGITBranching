@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\venu_cherukuri\Git Local Repositiry\LearnGITBranching\GITBranching\testng.xml</span>
+                    <span>C:\Users\venu_cherukuri\SeleniumWorkspace\LearnGITBranching\GITBranching\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,11 +112,6 @@
                         <a href="#" panel-name="suite-Suite" title="com.LearnGITBranching.testcases.Assertions" class="method navigator-link" hash-for-method="assertTrue1">assertTrue1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.LearnGITBranching.testcases.javascriptexecutors" class="method navigator-link" hash-for-method="searchUsingJavaScript">searchUsingJavaScript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -129,21 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.LearnGITBranching.testcases.javascriptexecutors</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchUsingJavaScript">
-                  </a> <!-- searchUsingJavaScript -->
-                  <span class="method-name">searchUsingJavaScript</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -169,7 +149,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\venu_cherukuri\Git Local Repositiry\LearnGITBranching\GITBranching\testng.xml</span>
+            <span class="header-content">C:\Users\venu_cherukuri\SeleniumWorkspace\LearnGITBranching\GITBranching\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +161,6 @@
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.google.com/&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.LearnGITBranching.testcases.Assertions&quot;/&gt;
-      &lt;class name=&quot;com.LearnGITBranching.testcases.javascriptexecutors&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -195,7 +174,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,24 +200,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchUsingJavaScript')
-data.setCell(0, 2, 'com.LearnGITBranching.testcases.javascriptexecutors')
-data.setCell(0, 3, 16211);
+data.setCell(0, 1, 'assertTrue')
+data.setCell(0, 2, 'com.LearnGITBranching.testcases.Assertions')
+data.setCell(0, 3, 66);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'assertTrue')
+data.setCell(1, 1, 'assertTrue1')
 data.setCell(1, 2, 'com.LearnGITBranching.testcases.Assertions')
-data.setCell(1, 3, 61);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'assertTrue1')
-data.setCell(2, 2, 'com.LearnGITBranching.testcases.Assertions')
-data.setCell(2, 3, 5);
+data.setCell(1, 3, 7);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 73 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -271,30 +246,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">assertTrue</span>
-                <span class="method-start">17739 ms</span>
+                <span class="method-start">15747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">assertTrue1</span>
-                <span class="method-start">17810 ms</span>
+                <span class="method-start">15822 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17823 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.LearnGITBranching.testcases.javascriptexecutors</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(https://www.google.com/, chrome)</span>
-                <span class="method-start">18787 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">searchUsingJavaScript</span>
-                <span class="method-start">33759 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">49977 ms</span>
+                <span class="method-start">15833 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
